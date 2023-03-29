@@ -1,0 +1,42 @@
+.guessLuckyNumberGame {
+    margin: 50px auto;
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .guessButton {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .resetButton {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  /* .feedback {
+    font-size: 18px;
+    margin-top: 20px;
+  } */
+  
