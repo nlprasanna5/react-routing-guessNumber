@@ -1,0 +1,36 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #315F93; */
+    background-color: #3186AA;
+    padding:2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  .innerContainer {
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+  }
+
+  .nav:hover {
+    color: #00235B;
+    cursor: pointer;
+  }
+
+  .nav:active {
+    color: #00235B;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  

@@ -1,10 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import GuessLuckyNumberGame from './components/GuessNumber';
-
+import Home from './components/Home';
+// import Header from './components/Navbar';
 function App() {
   return (
-    <GuessLuckyNumberGame/>
+    <>
+    {/* <Header/> */}
+    <Home/>
+    </>
+   
   );
 }
 

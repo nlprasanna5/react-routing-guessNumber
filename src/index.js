@@ -4,10 +4,43 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Login from './components/Login';
+import Register from './components/Register';
+import About from './components/About';
+import Home from './components/Home';
+import {  createBrowserRouter, RouterProvider} from "react-router-dom";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    
+    element: <App/>,
+  },
+  {
+    path : '/register' ,
+   
+    element :<Register/>
+  },
+  {
+    path : '/login' ,
+    
+    element : <Login/>
+  },
+  {
+    path: '/about',
+    element: <About/>
+  },
+  {
+    path: '/home',
+    element: <Home/>
+  }
+]);
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
