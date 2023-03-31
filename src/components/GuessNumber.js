@@ -1,10 +1,11 @@
 import React, { useState, useRef } from 'react';
-import style from './styles/GuessNumber.module.css'
+import style from './styles/GuessNumber.module.css';
 
 const GuessLuckyNumberGame = () => {
     const [luckyNumber, setLuckyNumber] = useState(Math.floor(Math.random() * 100) + 1);
     const [guessCount, setGuessCount] = useState(0);
     const [message, setMessage] = useState('');
+    
 
     const guessInputRef = useRef(null);
 
@@ -19,6 +20,7 @@ const GuessLuckyNumberGame = () => {
         } else {
             setMessage(alert('You guessed a bigger number.'));
         }
+        
     };
 
     const handleReset = () => {
